@@ -60,3 +60,6 @@ entry = CTkEntry(master)
 entry.grid(row=0, column=1)
 CTkButton(master, text='Download', command=lambda *args: download_video(entry.get())).grid(row=1, column=0, columnspan=2)
 master.mainloop()
+
+
+# Github : soroush-saki
